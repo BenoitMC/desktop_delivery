@@ -1,19 +1,15 @@
 # DesktopDelivery
 
-Open Rails emails in your desktop client
+Open Rails emails in your desktop client.
 
 ## Installation
 
 In you `Gemfile` :
 
 ```ruby
-gem "desktop_delivery"
-```
-
-Or :
-
-```
-gem install desktop_delivery
+group :development do
+  gem "desktop_delivery"
+end
 ```
 
 ## Configuration
@@ -23,15 +19,6 @@ In `config/environments/development.rb` :
 ```ruby
 config.action_mailer.delivery_method = :desktop_delivery
 ```
-
-## Compatibility
-
-It uses [Launchy](https://github.com/copiousfreetime/launchy) to open `.eml` files.
-
-Tested on:
-
-- Mac OS X 10.11 + Mail
-- Ubuntu 14.04 + Thunderbird
 
 ## Licence
 
