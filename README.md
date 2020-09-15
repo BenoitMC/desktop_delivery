@@ -20,6 +20,6 @@ In `config/environments/development.rb` :
 config.action_mailer.delivery_method = :desktop_delivery
 ```
 
-## Licence
+## License
 
 [WTFPL](https://en.wikipedia.org/wiki/WTFPL)
